@@ -79,6 +79,7 @@ internal class Emolod2
                 balance -= seats[numberOfSeat].GetCost();
                 seats[numberOfSeat].SetOccupied(true);
                 Console.WriteLine("Booked successfully");
+                Console.WriteLine("Your balance - " + balance);
                 break;
             }
             else if (seats[numberOfSeat].GetOccupied())
